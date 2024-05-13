@@ -1,0 +1,21 @@
+# https://github.com/またはgit@github.com:で始まるURLを見つけた場合、それをgithub:に置き換える。
+# 例) git clone https://github.com/username/repo.git  => git clone github:username/repo.git
+# [url "github:"]
+#     InsteadOf = https://github.com/
+#     InsteadOf = git@github.com:
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[user]
+	name = KorRyu3
+	email = 146335193+KorRyu3@users.noreply.github.com
+[fetch]
+	prune = true
+# commit時のeditorを指定。今回はcursor
+[core]
+	editor = cursor --wait
+# 読んで字の如く	
+[init]
+	defaultBranch = main

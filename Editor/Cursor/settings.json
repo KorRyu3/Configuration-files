@@ -1,0 +1,105 @@
+{
+    "terminal.integrated.tabs.enabled": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "explorer.confirmDelete": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "jupyter.jupyterServerType": "local",
+    "editor.unicodeHighlight.allowedCharacters": {
+        "️": true
+    },
+    "editor.unicodeHighlight.allowedLocales": {
+        "cs": true
+    },
+    "remote.SSH.showLoginTerminal": true,
+    "files.insertFinalNewline": true,
+    "files.autoSave": "afterDelay",
+    "notebook.output.scrolling": true,
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "clipring.maxRingItems": 30,
+    "editor.guides.bracketPairs": true,
+    "workbench.iconTheme": "vscode-icons",
+    "python.defaultInterpreterPath": "/Users/yamashitaryuunosuke/.local/share/mise/installs/python/latest/bin/python",
+    "terminal.integrated.inheritEnv": false,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false,
+        "javascript": true,
+        "rust": true
+    },
+    "hediet.vscode-drawio.resizeImages": null,
+    "hediet.vscode-drawio.codeLinkActivated": false,
+    "hediet.vscode-drawio.theme": "Kennedy",
+    "workbench.editor.empty.hint": "hidden",
+    "editor.lineNumbers": "on",
+    "github.copilot.advanced": {
+
+
+    },
+    // GitHub Copilotからの提案色を変更
+    "workbench.colorCustomizations": {
+        // "editorGhostText.border": "#ff0000",
+        "editorGhostText.foreground": "#52525a",
+    },
+    "codeium.enableConfig": {
+        "*": true,
+        "rust": false
+    },
+    "cSpell.language": "en, ja",
+    "cSpell.languageSettings": [
+
+    ],
+    "cSpell.words": [
+        "dotenv",
+        "pydantic",
+        "jsonify",
+        "openai",
+        "langchain"
+    ],
+    // "editor.fontFamily": "Monaspace Neon, Consolas, Courier New, monospace",
+    // "editor.fontFamily": "Monaspace Neon, Source Han Code JP",  // 標準
+    "editor.fontFamily": "Monaspace Xenon, Source Han Code JP, Hack Nerd Font",
+    "editor.fontLigatures": "'calt', 'ss02', 'ss06', 'ss07'",  // リガチャとテクスチャ・ヒーリングを有効にする.  詳細 https://monaspace.githubnext.com/
+
+    // Ruff formatter
+    "ruff.importStrategy": "fromEnvironment",
+    "ruff.lint.args": [
+        "--config=./ruff.toml",
+        "--ignore=E201,E202,E225,E226,E501" // Ruffのlint時に無視するエラー
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff", // FormatterにRuffを使用
+        "editor.formatOnSave": true, // コード保存時にフォーマットを実行
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit" // コード保存時にimport行を整理
+        },
+    },
+
+    // // Black formatter
+    // "[python]": {
+    //     "editor.defaultFormatter": "ms-python.black-formatter",
+    //     "editor.formatOnSave": true,
+    //     "editor.codeActionsOnSave": {
+    //         "source.organizeImports": "explicit"
+    //     },
+    // },
+    // "isort.args": [
+    //     "--profile",
+    //     "black"
+    // ],
+    // "flake8.args": [
+    //     "--ignore=E201, E202, E225, E226, E501, W503 ,W504"
+    // ],
+
+
+    "window.zoomLevel": 1,
+    "cursor.cpp.disabledLanguages": [
+        "plaintext",
+        "scminput",
+        "rust"
+    ],
+    "git.autofetch": true,
+}

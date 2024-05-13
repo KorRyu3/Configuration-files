@@ -1,0 +1,7 @@
+[tools]
+rust = "latest"
+node = "21.7.3"
+python = "latest"
+
+[settings]
+experimental = true

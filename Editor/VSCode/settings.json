@@ -1,0 +1,57 @@
+{
+    "terminal.integrated.tabs.enabled": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "explorer.confirmDelete": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "jupyter.jupyterServerType": "local",
+    "editor.unicodeHighlight.allowedCharacters": {
+        "️": true
+    },
+    "editor.unicodeHighlight.allowedLocales": {
+        "cs": true
+    },
+    "remote.SSH.showLoginTerminal": true,
+    "files.insertFinalNewline": true,
+    "files.autoSave": "afterDelay",
+    "notebook.output.scrolling": true,
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "clipring.maxRingItems": 30,
+    "editor.guides.bracketPairs": true,
+    "workbench.iconTheme": "vscode-icons",
+    "python.defaultInterpreterPath": "/Users/yamashitaryuunosuke/.local/share/mise/installs/python/latest/bin/python",
+    "terminal.integrated.inheritEnv": false,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    },
+    "hediet.vscode-drawio.resizeImages": null,
+    "hediet.vscode-drawio.codeLinkActivated": false,
+    "hediet.vscode-drawio.theme": "Kennedy",
+    "workbench.editor.empty.hint": "hidden",
+
+    "editor.fontFamily": "Monaspace Xenon, Source Han Code JP, Hack Nerd Font",
+    "editor.fontLigatures": "'calt', 'ss02', 'ss06', 'ss07'",  // リガチャとテクスチャ・ヒーリングを有効にする.  詳細 https://monaspace.githubnext.com/
+
+
+    // Black formatter
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+    },
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
+    "flake8.args": [
+        "--ignore=E201, E202, E225, E226, E501, W503 ,W504"
+    ],
+    "window.zoomLevel": 1
+}
+

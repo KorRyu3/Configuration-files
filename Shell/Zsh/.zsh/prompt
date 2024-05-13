@@ -1,0 +1,52 @@
+  login information\n
+%%l: %l\n
+%%M: %M\n
+%%m: %m\n
+%%n: %n\n
+%%y: %y\n\n
+
+  shell state\n
+%%#: %#\n
+%%?: %?\n
+%%_: %_\n
+%%^: %^\n
+%%d: %d\n
+%%/: %/\n
+%%3d: %3d\n
+%%2d: %2d\n
+%%1d: %1d\n
+%%-1d: %-1d\n
+%%-2d: %-2d\n
+%%~: %~\n
+%%c: %c\n
+%%.: %.\n
+%%C: %C\n\n
+
+%%e: %e\n
+%%!: %!\n
+%%i: %i\n
+%%I: %I\n
+%%j: %j\n
+%%L: %L\n
+%%N: %N\n
+%%x: %x\n
+
+date and time\n
+%%D: %D\n
+%%T: %T\n
+%%t: %t\n
+%%@: %@\n
+%%*: %*\n
+%%w: %w\n
+%%W: %W\n
+%%D{%%H:%%M:%%S.%%.}: %D{%H:%M:%S.%.}\n\n
+
+  visual effects\n
+%%B %%b: %B hello world %b\n
+%%U %%u: %U hello world %u\n
+%%E: %E hello world\n
+%%F{red} %%f: %F{red} hello world %f\n
+%%K{blue} %%k: %K{blue} hello world %k\n
+%%S: %S hello world %s\n
+%%{string%%}: %{h$e'l"l#o! w2o+r*l^d%}\n
+
