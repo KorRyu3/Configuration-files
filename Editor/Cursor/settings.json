@@ -58,8 +58,6 @@
         "jsonify",
         "openai",
         "langchain"
-    ],
-    // "editor.fontFamily": "Monaspace Neon, Consolas, Courier New, monospace",
     // "editor.fontFamily": "Monaspace Neon, Source Han Code JP",  // 標準
     "editor.fontFamily": "Monaspace Xenon, Source Han Code JP, Hack Nerd Font",
     "editor.fontLigatures": "'calt', 'ss02', 'ss06', 'ss07'",  // リガチャとテクスチャ・ヒーリングを有効にする.  詳細 https://monaspace.githubnext.com/
@@ -75,25 +73,7 @@
         "editor.formatOnSave": true, // コード保存時にフォーマットを実行
         "editor.codeActionsOnSave": {
             "source.organizeImports": "explicit" // コード保存時にimport行を整理
-        },
-    },
-
-    // // Black formatter
-    // "[python]": {
-    //     "editor.defaultFormatter": "ms-python.black-formatter",
-    //     "editor.formatOnSave": true,
-    //     "editor.codeActionsOnSave": {
-    //         "source.organizeImports": "explicit"
-    //     },
-    // },
-    // "isort.args": [
-    //     "--profile",
-    //     "black"
-    // ],
-    // "flake8.args": [
-    //     "--ignore=E201, E202, E225, E226, E501, W503 ,W504"
-    // ],
-
+    }
 
     "window.zoomLevel": 1,
     "cursor.cpp.disabledLanguages": [
