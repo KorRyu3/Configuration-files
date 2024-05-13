@@ -20,7 +20,7 @@
     "clipring.maxRingItems": 30,
     "editor.guides.bracketPairs": true,
     "workbench.iconTheme": "vscode-icons",
-    "python.defaultInterpreterPath": "/Users/yamashitaryuunosuke/.local/share/mise/installs/python/latest/bin/python",
+    "python.defaultInterpreterPath": "Your Python Interpreter Path",
     "terminal.integrated.inheritEnv": false,
     "github.copilot.enable": {
         "*": true,
