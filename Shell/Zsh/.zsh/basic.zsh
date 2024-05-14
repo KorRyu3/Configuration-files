@@ -61,17 +61,3 @@ typeset -A ZSH_HIGHLIGHT_STYLES
 
 # pathの下線を消す
 ZSH_HIGHLIGHT_STYLES[path]="none"  # "none" -> "underline"
-
-
-# 諸々の色などを設定
-
-# ZSH_HIGHLIGHTING_HIGHLIGHTERS=(main brackets cursor url)
-# ZSH_HIGHLIGHT_STYLES[precommand]='fg=190,bold'
-# ZSH_HIGHLIGHT_STYLES[command]='fg=190'
-# ZSH_HIGHLIGHT_STYLES[builtin]='fg=178'
-
-
-# ZSH_HIGHLIGHTING_HIGHLIGHTERS=(main brackets cursor)
-# ZSH_HIGHLIGHT_STYLES[precommand]=''
-# ZSH_HIGHLIGHT_STYLES[command]=''
-# ZSH_HIGHLIGHT_STYLES[builtin]=''
