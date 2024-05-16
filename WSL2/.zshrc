@@ -84,8 +84,11 @@ fi
 # linuxbrew
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
-# starship
+# starshipを有効化
 eval "$(starship init zsh)"
+
+# miseを有効化
+eval "$(mise activate zsh)"
 
 # zsh-autosuggestionsを起動
 . /home/linuxbrew/.linuxbrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -164,17 +167,6 @@ add_newline() {
     fi
 }
 
-
-
-
-
-
-
-
-
-
-
-eval "$(ssh-agent -s)"
 
 # ssh-agent
 env=~/.ssh/agent.env
