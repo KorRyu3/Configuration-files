@@ -18,7 +18,7 @@ unset __conda_setup
 
 
 # >>> ssh-agent >>>
-eval "$(ssh-agnet -s)"
+eval "$(ssh-agent -s)"
 # <<< ssh-agent <<<
 
 # >>> ssh-agentをログイン時に起動 >>>

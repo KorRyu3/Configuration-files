@@ -174,9 +174,7 @@ add_newline() {
 
 
 
-
-
-
+eval "$(ssh-agent -s)"
 
 # ssh-agent
 env=~/.ssh/agent.env
