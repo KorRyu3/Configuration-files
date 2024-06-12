@@ -1,0 +1,31 @@
+# ----------------------------------------------------------------------------------------
+# Alias
+# ----------------------------------------------------------------------------------------
+# Linux
+alias ll="ls -l"
+
+# Git
+alias gb="git branch"
+alias gb-d="git branch -d"
+alias gsi="git switch"
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit"
+alias gp="git push"
+alias gl="git log --oneline"
+alias gres="git restore"
+alias gres-s="git restore --staged"
+
+# Docker
+alias d="docker"
+alias dcm="docker-compose"
+
+# Homebrew
+alias bi="brew install"
+alias bi-c="brew install --cask"
+alias bl="brew list"
+alias bu="brew upgrade"
+alias bup="brew update"
+
+# act
+alias act="act --container-architecture linux/amd64"

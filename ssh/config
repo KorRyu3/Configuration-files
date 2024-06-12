@@ -1,0 +1,9 @@
+Host github.com
+    HostName github.com
+	IgnoreUnknown AddKeysToAgent,UseKeychain
+	AddKeysToAgent yes
+	UseKeychain yes
+	User git
+    Port 22
+    IdentityFile 'Your SSH Key Path'
+

@@ -20,7 +20,7 @@
     "clipring.maxRingItems": 30,
     "editor.guides.bracketPairs": true,
     "workbench.iconTheme": "vscode-icons",
-    "python.defaultInterpreterPath": "/Users/yamashitaryuunosuke/.local/share/mise/installs/python/latest/bin/python",
+    "python.defaultInterpreterPath": "Your Python Interpreter Path",
     "terminal.integrated.inheritEnv": false,
     "github.copilot.enable": {
         "*": true,
@@ -59,7 +59,6 @@
         "openai",
         "langchain"
     ],
-    // "editor.fontFamily": "Monaspace Neon, Consolas, Courier New, monospace",
     // "editor.fontFamily": "Monaspace Neon, Source Han Code JP",  // 標準
     "editor.fontFamily": "Monaspace Xenon, Source Han Code JP, Hack Nerd Font",
     "editor.fontLigatures": "'calt', 'ss02', 'ss06', 'ss07'",  // リガチャとテクスチャ・ヒーリングを有効にする.  詳細 https://monaspace.githubnext.com/
@@ -67,7 +66,7 @@
     // Ruff formatter
     "ruff.importStrategy": "fromEnvironment",
     "ruff.lint.args": [
-        "--config=./ruff.toml",
+        // "--config=./ruff.toml",
         "--ignore=E201,E202,E225,E226,E501" // Ruffのlint時に無視するエラー
     ],
     "[python]": {

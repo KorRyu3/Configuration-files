@@ -228,4 +228,3 @@ export PATH="/opt/homebrew/anaconda3/bin:$PATH"  # commented out by conda initia
 # >>> Starship >>>
 eval "$(starship init zsh)"
 # <<< Starship <<<
-
