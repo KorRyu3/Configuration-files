@@ -75,7 +75,7 @@
         "editor.formatOnSave": true, // コード保存時にフォーマットを実行
         "editor.codeActionsOnSave": {
             "source.organizeImports": "explicit" // コード保存時にimport行を整理
-        },
+        }
     },
 
     // // Black formatter
@@ -101,5 +101,5 @@
         "scminput",
         "rust"
     ],
-    "git.autofetch": true,
+    "git.autofetch": true
 }
