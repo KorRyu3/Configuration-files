@@ -4,13 +4,18 @@ case $- in
       *) return;;
 esac
 
+# don't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options
+# HISTCONTROL=ignoreboth
+
 # append to the history file, don't overwrite it
 # shopt -s histappend
 setopt  histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=10000
-HISTFILESIZE=20000
+SAVEHIST=2000      # セッション終了時に.zsh_historyに保存される履歴の数
+HISTSIZE=2000      # メモリ上に保存する履歴の数
+HISTFILESIZE=20000 # .zsh_historyに保存する履歴の数
 
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
@@ -84,11 +89,11 @@ fi
 # linuxbrew
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
-# starshipを有効化
-eval "$(starship init zsh)"
-
-# miseを有効化
+# mise
 eval "$(mise activate zsh)"
+
+# starship
+eval "$(starship init zsh)"
 
 # zsh-autosuggestionsを起動
 . /home/linuxbrew/.linuxbrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -118,7 +123,7 @@ ZSH_HIGHLIGHT_STYLES[path]="none"  # "none" -> "underline"
 # export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/home/linuxbrew/.linuxbrew/share/zsh-syntax-highlighting/highlighters
 
 # 履歴ファイルを明示
-HISTFILE=~/.zsh_history
+HISTFILE=/home/korryu/.zsh_history
 
 # ビープ音を鳴らさない
 setopt nolistbeep
@@ -168,7 +173,6 @@ add_newline() {
 }
 
 
-# ssh-agent
 env=~/.ssh/agent.env
 
 agent_load_env () { test -f "$env" && . "$env" >| /dev/null ; }
@@ -190,5 +194,3 @@ elif [ "$SSH_AUTH_SOCK" ] && [ $agent_run_state = 1 ]; then
 fi
 
 unset env
-# ssh-agent
-

@@ -12,6 +12,8 @@ alias gs="git status"
 alias ga="git add"
 alias gc="git commit"
 alias gp="git push"
+alias gpl='git pull'
+alias gf='git fetch'
 alias gl="git log --oneline"
 alias gres="git restore"
 alias gres-s="git restore --staged"
@@ -26,6 +28,3 @@ alias bi-c="brew install --cask"
 alias bl="brew list"
 alias bu="brew upgrade"
 alias bup="brew update"
-
-# act
-alias act="act --container-architecture linux/amd64"
